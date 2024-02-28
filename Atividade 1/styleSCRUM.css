@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+}
+
+header{
+    width: 100%;
+    height: 15vh;
+}
+
+.cabecalho{
+    display: flex;
+    background-color: rgb(236, 236, 236);
+}
+
+.icones{
+    display: flex; 
+    width: 20%;
+    height: auto;
+    justify-content: space-around;
+    padding: 1%;
+}
+
+
+.menu{
+    width: 100%;
+    text-align: right;
+    align-self: flex-end;
+    padding: 1%;
+}
+
+.link{
+    margin: 1%;
+}
+
+.link2{
+    color: white;
+    border: solid 2px #f5305a;
+    font-size: 0.5em;
+}
+
+a{
+    font-size: 1.7em;
+    font-family: monospace;
+    border-radius: 5px;
+    padding: 0.5% 1% 0.5% 1% ;
+    color: black;
+}
+
+a:hover{
+    color: white;
+    background: #f5305a;
+}
+a:active{
+    color: #f5305a;
+    background: rgb(236, 236, 236);
+}
+
+.conteudo{
+    height: 70%;
+    display: flex;
+    background: #054d7e;
+}
+
+.scrum{
+    height: 50%;
+    width: 50%;
+    margin: 2%;
+    border-radius: 10px;
+}
+
+.entrada{
+    flex-direction: column;
+    align-self: center;
+    font-size: 3em;
+}
+
+.titulo{
+    font-size: 1.5em;
+    font-family: monospace;
+    color: white;
+    margin-bottom: 10%;
+}
+
+.valores{
+    background: rgb(236, 236, 236);
+}
+
+.titulo2{
+    margin:2% 2% 2% 2%;
+    font-size: 4em;
+    font-family: monospace;
+    color: #054d7e;
+    text-align: center;
+}
+
+.topicos{
+    display: flex;
+    flex-direction: row;
+    background-color: #083350;
+}
+
+.topicos2{
+    display: flex;
+    flex-direction: row;
+    background-color: #61a0cac4;
+}
+
+.icones2{
+    width: 10%;
+    height: 10%;
+    margin: 1%;
+    margin-left: 10%;
+}
+
+.texto{
+    align-self: center;
+    padding: 3%;
+    color: white;
+    font-size: 2em;
+    font-family: monospace;
+}
+
+h2{
+    margin: 1%;
+    color: #054d7e;
+    font-family: monospace;
+    font-style: italic;
+}
+
+.rodape{
+    background-color: rgb(236, 236, 236);
+}
